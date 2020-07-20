@@ -1,0 +1,111 @@
+/* Common styles*/
+
+.floatleft{float:left;}
+.floatright{float:right}
+.clear{clear:both}
+
+
+
+/* these rules apply to HIgh resolution display And cascase Down to medium and low resolution displays*/
+
+body{
+	margin:0; 
+	font-family: 'Oleo Script', cursive;
+	color:rgb(100,100,100);
+}
+
+header{
+	width:100%;
+	height:60px; 
+	background :rgb(0,0,0);
+	padding: 5px 0;
+}
+
+#logo img {
+	width:200px;
+	padding-top:10px;
+	float: left;
+	margin-left: 10px;
+}
+
+.container{
+	width:940px;
+	height:100%;
+	margin:0 auto;
+	background: rgb(150,0,0)
+}
+
+nav{
+	float:right;
+	margin-top: 3px;	
+}
+
+nav li{
+	display: inline;
+	margin-right: 30px;
+	font-weight: bold;
+	font-size:100%;
+}
+
+nav li a{
+	color:rgb(255,255,255);
+	text-decoration:none;
+}
+
+input.search{
+	border-radius:5px;
+	height:20px;
+	margin-top:15px;
+	border:1px solid rgb(150,150,150);
+	width:140px;
+	background: rgb(255,255,255) url(search.png) no-repeat 4px 4px;
+	padding:4px 4px 4px 30px;
+	margin-right: 10px;
+	float: right
+}
+
+section.hero{
+	width:100%;
+	max-height:400px;
+	padding:5px 0;
+	background: url(herobg.jpg);
+	background-size:100% 100%
+}
+
+.herocontent{
+	width:390px;
+	margin-left: 20px;
+	padding-top:40px;
+	color: rgb(255,255,255);
+	margin-right:10px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.75);
+}
+
+.section.hero h1{
+	font-size:325%;
+	margin-bottom:-10px;
+	font-family: 'Oleo Script', cursive;
+	line-height: lem;
+	font-weight: normal
+}
+
+.section.hero p{
+	margin-bottom:60px
+}
+
+.heroimage{
+	margin:70px 0 0 20px;
+}
+
+.button{
+	width:225px;
+	height:45px;
+	background: url(buttonbg.jpg);
+	text-align:centerl;
+	font-size:150%;
+	padding:20px 5px 5px;
+	margin: 5px 5px 0 0;
+	border: 1px solid rgb(205,101,14);
+	border-radius: 5px;
+}
+
